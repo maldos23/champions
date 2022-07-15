@@ -13,7 +13,9 @@ const colors = {
   },
 };
 
-const theme = extendTheme({ colors });
+const theme = extendTheme({
+  colors,
+});
 function Champions({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>
